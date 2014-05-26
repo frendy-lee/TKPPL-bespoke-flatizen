@@ -1,0 +1,68 @@
+=======================
+INFORMASI UMUM
+
+Nama kelompok : Cookies
+Alamat Github : https://github.com/fr3ndyl33/TKPPL-bespoke-flatizen.git  (scrum master 1)
+Alamat Trello : https://trello.com/b/IAAg2HAa
+Judul Topik   : Flatizen - Solusi Properti Internasional
+
+Anggota 1
+Nama: DEWI RATNA SARI
+NIM: 12.111.0430
+
+Anggota 2
+Nama: FRENDY
+NIM: 12.111.0090
+
+Anggota 3
+Nama: JIMMY TANU WIJAYA
+NIM: 12.111.0154
+
+Anggota 4
+Nama: STEVEN HANDOKO
+NIM: 12.111.0324
+=======================
+
+
+SPRINT
+------
+Sprint 1: 
+26/5 - 28/5
+Scrummaster: Frendy (12.111.0090)
+
+Sprint 2:
+29/5 - 31/5
+
+
+Sprint 3: 
+2/5 - 4/5
+
+
+Sprint 4:
+5/5 - 7/5
+
+
+Progress Harian (Diupdate tiap hari)
+------------------------------------
+
+26/5 
+Daily Scrum
+(Nama Anggota 1):
+1. Semalam saya.. (abaikan jika hari pertama)
+2. Hari ini saya.. 
+3. Saya ada kendala di..
+
+(FRENDY):
+1.
+2. Hari ini saya membuat beberapa backlog baru pada trello untuk memperbanyak pembagian tugas dan mengubah beberapa quick notes pada readme.md untuk mempermudah penggunaan github oleh anggota lainnya 
+3. Saya mendapati kendala dalam hal kurangnya waktu untuk mengeksekusi atau memulai sprint backlog.
+
+(Nama Anggota 3):
+1.
+2.
+3.
+
+(Nama Anggota 4):
+1.
+2.
+3.
