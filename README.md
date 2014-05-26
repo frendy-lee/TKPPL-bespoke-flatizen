@@ -29,7 +29,7 @@ Quick notes bagi anggota kelompok [MOHON DIBACA!!!] :
 --------------------
 Day 1 - 3 		: Frendy
 Day 4 - 6 		: [assign your name]
-Day 7 - 9 		: [assign your name]
+Day 7 - 9 		: Dewi Ratna Sari
 Day 10 - 12 	: [assign your name]
 
 
