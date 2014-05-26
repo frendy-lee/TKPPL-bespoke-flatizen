@@ -59,8 +59,8 @@ Daily Scrum
 
 (JIMMY):
 1. Semalam saya.. (abaikan jika hari pertama)
-2. Hari ini saya.. 
-3. Saya ada kendala di..
+2. Hari ini saya mempelajari backlog, quick notes dan pengeditan readme.md dan Scrum Master.
+3. Saya ada kendala di dalam mengatur pengeksekusian sprint backlog.
 
 (STEVEN):
 1. Semalam saya.. (abaikan jika hari pertama)
