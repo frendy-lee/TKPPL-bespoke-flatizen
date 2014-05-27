@@ -32,7 +32,7 @@ Scrummaster: Frendy (12.111.0090)
 
 Sprint 2:
 29/5 - 31/5
-Scrummaster:
+Scrummaster: Steven (12.111.0324)
 
 Sprint 3: 
 2/6 - 4/6
@@ -40,7 +40,7 @@ Scrummaster: Dewi Ratna Sari (12.111.0430)
 
 Sprint 4:
 5/6 - 7/6
-Scrummaster:
+Scrummaster: Jimmy Tanu Wijaya (12.111.0154)
 
 Progress Harian (Diupdate tiap hari)
 ------------------------------------
@@ -64,5 +64,5 @@ Daily Scrum
 
 (STEVEN):
 1. Semalam saya.. (abaikan jika hari pertama)
-2. Hari ini saya.. 
-3. Saya ada kendala di..
+2. Hari ini saya  melakulan fork pada git scrum master dan melakukan clone pada source tree pada windows saya.
+3. Saya ada kendala yaitu saya kurang terbisa dengan source tree dan git hub.
