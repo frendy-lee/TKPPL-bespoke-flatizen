@@ -24,13 +24,11 @@ Quick notes bagi anggota kelompok [MOHON DIBACA!!!] :
 7. Scrum Master wajib memeriksa dengan baik perubahan - perubahan yang diberitahukan oleh anggota dan melakukan pull dengan bijak.
 
 
-
 [Sprint Period] : [Scrum Master name]
 --------------------
 Day 1 - 3 		: Frendy
-Day 4 - 6 		: [assign your name]
-Day 7 - 9 		: [assign your name]
-Day 10 - 12 	: [assign your name]
-
+Day 4 - 6 		: Steven Handoko
+Day 7 - 9 		: Dewi RatnaSari
+Day 10 - 12 	: Jimmy Tanu Wijaya
 
 
