@@ -4,7 +4,7 @@
 
 slide_width = 640px
 slide_height = 480px
-slide_background = #303030
+slide_background = #6CF
 
 slide_transition_length = .6s
 slide_transition_easing = ease
@@ -30,6 +30,16 @@ bullet_transition_translate_x = 16px
 @page
   size: landscape
   margin: 0
+
+@font-face{
+  font-family: flatizen_bauhaus
+  src: url(fonts/Bauhaus 93.ttf)
+}
+
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
 
 // bespoke.js layout styles
 
@@ -73,7 +83,7 @@ article
   margin-left: (slide_width / 2) * -1
   background: slide_background
   padding: 40px
-  border-radius: 0
+  border-radius 10px
   @media print
     zoom: 1 !important // disable bespoke-scale
     height: 743px // seems to correspond with an A4, landscape page height
@@ -163,7 +173,11 @@ pre
 body
   font-family: helvetica, arial, sans-serif
   font-size: 18px
-  color: #F0F0F0
+  color: #303030
+
+.flatizen-font
+  font-family: "Bauhaus 93", bauhaus_flatizen, forte
+  font-weight: bold
 
 h1
   font-size: 72px
