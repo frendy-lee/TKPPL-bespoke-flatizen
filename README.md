@@ -29,11 +29,6 @@ Quick notes bagi anggota kelompok [MOHON DIBACA!!!] :
 Day 1 - 3 		: Frendy
 Day 4 - 6 		: Steven Handoko
 Day 7 - 9 		: Dewi RatnaSari
-<<<<<<< HEAD
 Day 10 - 12 	: Jimmy Tanu Wijaya
-=======
-Day 10 - 12 		: Jimmy Tanu Wijaya
-
->>>>>>> 53c7f037e62d6eafc8ca4c25dece1e8e035d136a
 
 
