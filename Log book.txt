@@ -58,11 +58,34 @@ Daily Scrum
 3. Saya mendapati kendala dalam hal kurangnya waktu untuk mengeksekusi atau memulai sprint backlog.
 
 (JIMMY):
-1. Semalam saya.. (abaikan jika hari pertama)
+1. 
 2. Hari ini saya mempelajari backlog, quick notes dan pengeditan readme.md dan Scrum Master.
 3. Saya ada kendala di dalam mengatur pengeksekusian sprint backlog.
 
 (STEVEN):
-1. Semalam saya.. (abaikan jika hari pertama)
+1. 
 2. Hari ini saya  melakulan fork pada git scrum master dan melakukan clone pada source tree pada windows saya.
 3. Saya ada kendala yaitu saya kurang terbisa dengan source tree dan git hub.
+
+
+27/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya telah melakukan konfigurasi dan adaptasi aplikasi yang digunakan
+2. Hari ini saya mencoba melakukan beberapa konfigurasi dan testing pada Index.Jade, main.styl dan themes.styl.
+3. Saya ada kendala pada grunt server yang tiba - tiba bermasalah dan saya kurang mengerti penulisan sintax Jade.
+
+(FRENDY):
+1. Semalam saya telah mengatur dan mempersiapkan beberapa backlog yang akan dieksekusi.
+2. Hari ini saya melakukan beberapa perubahan thema pada slide utama, membuat slide khusus untuk perkenalan Properti.
+3. Saya mendapati kendala dalam hal pembuatan javascript untuk membuat interaktifitas pada slide.
+
+(JIMMY):
+1. Semalan saya telah mempelajari backlog, quick notes dan readme.md
+2. Hari ini saya mempelajari penulisan Jade dan pembuatan halaman userproperty.jade
+3. Saya memiliki kendala dalam hal kurangnya pengetahuan customisasi bespoke yang mengakibatkan terhambatnya proses pengeditan.
+
+(STEVEN):
+1. Semalam saya telah melakukan fork dan clone proyek pada windows saya.
+2. Hari ini saya mempelajari penulisan Jade menggunakan sublime untuk proyek ini.
+3. Saya ada kendala yaitu pada source tree yang bermasalah dan tidak dapat merecognize clone dari proyek.
