@@ -1,0 +1,91 @@
+=======================
+INFORMASI UMUM
+
+Nama kelompok : Cookies
+Alamat Github : https://github.com/fr3ndyl33/TKPPL-bespoke-flatizen.git  (scrum master 1)
+Alamat Trello : https://trello.com/b/IAAg2HAa
+Judul Topik   : Flatizen - Solusi Properti Internasional
+
+Anggota 1
+Nama: DEWI RATNA SARI
+NIM: 12.111.0430
+
+Anggota 2
+Nama: FRENDY
+NIM: 12.111.0090
+
+Anggota 3
+Nama: JIMMY TANU WIJAYA
+NIM: 12.111.0154
+
+Anggota 4
+Nama: STEVEN HANDOKO
+NIM: 12.111.0324
+=======================
+
+
+SPRINT
+------
+Sprint 1: 
+26/5 - 28/5
+Scrummaster: Frendy (12.111.0090)
+
+Sprint 2:
+29/5 - 31/5
+Scrummaster: Steven (12.111.0324)
+
+Sprint 3: 
+2/6 - 4/6
+Scrummaster: Dewi Ratna Sari (12.111.0430)
+
+Sprint 4:
+5/6 - 7/6
+Scrummaster: Jimmy Tanu Wijaya (12.111.0154)
+
+Progress Harian (Diupdate tiap hari)
+------------------------------------
+
+26/5 
+Daily Scrum
+(DEWI):
+1. 
+2. Hari ini saya melakukan konfigurasi dan "adaptasi" terhadap aplikasi-aplikasi yang kelak akan sering diperlukan dalam pengerjaan project ini. 
+3. 
+
+(FRENDY):
+1.
+2. Hari ini saya membuat beberapa backlog baru pada trello untuk memperbanyak pembagian tugas dan mengubah beberapa quick notes pada readme.md untuk mempermudah penggunaan github oleh anggota lainnya 
+3. Saya mendapati kendala dalam hal kurangnya waktu untuk mengeksekusi atau memulai sprint backlog.
+
+(JIMMY):
+1. 
+2. Hari ini saya mempelajari backlog, quick notes dan pengeditan readme.md dan Scrum Master.
+3. Saya ada kendala di dalam mengatur pengeksekusian sprint backlog.
+
+(STEVEN):
+1. 
+2. Hari ini saya  melakulan fork pada git scrum master dan melakukan clone pada source tree pada windows saya.
+3. Saya ada kendala yaitu saya kurang terbisa dengan source tree dan git hub.
+
+
+27/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya telah melakukan konfigurasi dan adaptasi aplikasi yang digunakan
+2. Hari ini saya mencoba melakukan beberapa konfigurasi dan testing pada Index.Jade, main.styl dan themes.styl.
+3. Saya ada kendala pada grunt server yang tiba - tiba bermasalah dan saya kurang mengerti penulisan sintax Jade.
+
+(FRENDY):
+1. Semalam saya telah mengatur dan mempersiapkan beberapa backlog yang akan dieksekusi.
+2. Hari ini saya melakukan beberapa perubahan thema pada slide utama, membuat slide khusus untuk perkenalan Properti.
+3. Saya mendapati kendala dalam hal pembuatan javascript untuk membuat interaktifitas pada slide.
+
+(JIMMY):
+1. Semalan saya telah mempelajari backlog, quick notes dan readme.md
+2. Hari ini saya mempelajari penulisan Jade dan pembuatan halaman userproperty.jade
+3. Saya memiliki kendala dalam hal kurangnya pengetahuan customisasi bespoke yang mengakibatkan terhambatnya proses pengeditan.
+
+(STEVEN):
+1. Semalam saya telah melakukan fork dan clone proyek pada windows saya.
+2. Hari ini saya mempelajari penulisan Jade menggunakan sublime untuk proyek ini.
+3. Saya ada kendala yaitu pada source tree yang bermasalah dan tidak dapat merecognize clone dari proyek.

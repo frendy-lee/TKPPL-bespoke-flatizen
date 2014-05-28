@@ -23,14 +23,33 @@ Quick notes bagi anggota kelompok [MOHON DIBACA!!!] :
 
 7. Scrum Master wajib memeriksa dengan baik perubahan - perubahan yang diberitahukan oleh anggota dan melakukan pull dengan bijak.
 
+8. Untuk mengambil perubahan dari github utama/ github master lakukan:
+
+	a. Untuk pertama kali ketikkan:
+
+		cd into/cloned/fork-repo
+
+		git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+
+	b. Untuk selanjutnya cukup ketikkan command di bawah ini untuk mengambil perubahan terbaru:
+
+		git fetch upstream
+
+		git pull upstream master
 
 
 [Sprint Period] : [Scrum Master name]
 --------------------
 Day 1 - 3 		: Frendy
+<<<<<<< HEAD
 Day 4 - 6 		: [assign your name]
 Day 7 - 9 		: Dewi Ratna Sari
 Day 10 - 12 	: [assign your name]
 
+=======
+Day 4 - 6 		: Steven Handoko
+Day 7 - 9 		: Dewi RatnaSari
+Day 10 - 12 	: Jimmy Tanu Wijaya
+>>>>>>> 104986099b3000b942b09d5d8ae08ba617d68607
 
 
