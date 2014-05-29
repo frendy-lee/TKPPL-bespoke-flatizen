@@ -50,7 +50,7 @@ Daily Scrum
 (DEWI):
 1. 
 2. Hari ini saya melakukan konfigurasi dan "adaptasi" terhadap aplikasi-aplikasi yang kelak akan sering diperlukan dalam pengerjaan project ini. 
-3. 
+3. Saya mendapati kendala dalam penggunaan source tree.
 
 (FRENDY):
 1.
@@ -89,3 +89,20 @@ Daily Scrum
 1. Semalam saya telah melakukan fork dan clone proyek pada windows saya.
 2. Hari ini saya mempelajari penulisan Jade menggunakan sublime untuk proyek ini.
 3. Saya ada kendala yaitu pada source tree yang bermasalah dan tidak dapat merecognize clone dari proyek.
+
+28/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya telah mencoba melakukan beberapa konfigurasi dan testing pada Index.Jade, main.styl dan themes.styl.
+2. Hari ini saya mencari sumber referensi mengenai keuntungan yang ditawarkan oleh bisnis properti &
+   mempelajari cara membuat desain yang lebih dinamis pada bespoke. 
+3. Saya ada kendala dalam mempelajari desain pada bespoke karena referensi yang minim.
+
+
+29/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya telah mencari sumber referensi mengenai keuntungan yang ditawarkan oleh bisnis properti &
+   mempelajari cara membuat desain yang lebih dinamis pada bespoke. 
+2. Hari ini saya membuat benefit.jade, slide mengenai keuntungan bisnis property.
+3. Saya ada kendala dalam melakukan pul request.
