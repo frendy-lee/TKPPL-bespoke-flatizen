@@ -98,6 +98,20 @@ Daily Scrum
    mempelajari cara membuat desain yang lebih dinamis pada bespoke. 
 3. Saya ada kendala dalam mempelajari desain pada bespoke karena referensi yang minim.
 
+(FRENDY):
+1. Semalam saya telah membuat slide khusus untuk pengenalan properti dari segi pengertian dasar properti
+2. Hari ini saya mencoba dan bereksperimen dengan beberapa thema untuk diterapkan pada slide pengertian properti.
+3. Saya mendapati kendala dalam hal mengubah tampilan  dan pemilihan warna yang baik
+
+(JIMMY):
+1. Semalan saya telah menambah dan mengupdate isi dari slide userproperty
+2. Hari ini saya mengedit style tulisan dan mencoba penggunaan thema baru
+3. Saya memiliki kendala dalam pemahaman cara kerja keseluruhan coding bespoke
+
+(STEVEN):
+1. Semalam saya mempelajari penulisan Jade
+2. Hari ini saya membuat slide untuk pengenalan flatizen.
+3. Saya memiliki kendala karena kesalahan merging history master.
 
 29/5 
 Daily Scrum
@@ -106,3 +120,8 @@ Daily Scrum
    mempelajari cara membuat desain yang lebih dinamis pada bespoke. 
 2. Hari ini saya membuat benefit.jade, slide mengenai keuntungan bisnis property.
 3. Saya ada kendala dalam melakukan pul request.
+
+(FRENDY):
+1. Semalam saya telah bereksperimen dengan beberapa thema.
+2. Hari ini saya kurang berpatisipasi dalam proyek dikarenakan terlibat urusan lain.
+3. Hari ini tidak mendapati kendala.
