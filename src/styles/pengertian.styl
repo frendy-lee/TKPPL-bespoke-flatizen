@@ -109,6 +109,33 @@ article
 .bespoke-active
   opacity: 1
 
+section {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  background: #c0c0c0;
+  border-radius: 30px;
+  width: 512px;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -256px;
+  margin-top: -220px;
+  opacity: 0;
+}
+
+section.bespoke-active {
+  opacity: 1;
+  z-index: 12;
+}
+section.bespoke-inactive {
+  pointer-events: none;
+  z-index: 0;
+}
+
 // bespoke-bullet styles
 
 .bespoke-bullet
@@ -174,7 +201,12 @@ body
   font-family: helvetica, arial, sans-serif
   font-size: 18px
   color: #EEE
+
+.b-shadow
   text-shadow: 2px 2px #000
+
+.sm-caps
+  font-variant:small-caps;
 
 .flatizen-font
   font-family: "Bauhaus 93", bauhaus_flatizen, forte
