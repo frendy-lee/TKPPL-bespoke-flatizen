@@ -37,19 +37,14 @@ Quick notes bagi anggota kelompok [MOHON DIBACA!!!] :
 
 		git pull upstream master
 
+9. Bila command npm install bermasalah, ketikkan npm cache clean terlebih dahulu lalu ketikkan npm install kembali
 
-[Sprint Period] : [Scrum Master name]
---------------------
+
+[Sprint Period] | [Scrum Master name]
+``````````````````````````````````````
 Day 1 - 3 		: Frendy
-<<<<<<< HEAD
-Day 4 - 6 		: [assign your name]
-Day 7 - 9 		: Dewi Ratna Sari
-Day 10 - 12 	: [assign your name]
-
-=======
 Day 4 - 6 		: Steven Handoko
-Day 7 - 9 		: Dewi RatnaSari
-Day 10 - 12 	: Jimmy Tanu Wijaya
->>>>>>> 104986099b3000b942b09d5d8ae08ba617d68607
+Day 7 - 9 		: Dewi Ratna Sari
+Day 10 - 12 		: Jimmy Tanu Wijaya
 
 
