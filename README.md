@@ -39,12 +39,20 @@ Quick notes bagi anggota kelompok [MOHON DIBACA!!!] :
 
 9. Bila command npm install bermasalah, ketikkan npm cache clean terlebih dahulu lalu ketikkan npm install kembali
 
+<<<<<<< HEAD
+[Sprint Period] : [Scrum Master name]
+--------------------
+Day 1 - 3 		: Frendy
+Day 4 - 6 		: Steven Handoko
+Day 7 - 9 		: Dewi RatnaSari
+=======
 
 [Sprint Period] | [Scrum Master name]
 ``````````````````````````````````````
 Day 1 - 3 		: Frendy
 Day 4 - 6 		: Steven Handoko
 Day 7 - 9 		: Dewi Ratna Sari
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 Day 10 - 12 		: Jimmy Tanu Wijaya
 
 

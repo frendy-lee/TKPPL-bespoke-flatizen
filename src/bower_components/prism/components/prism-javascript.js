@@ -13,10 +13,17 @@ Prism.languages.insertBefore('javascript', 'keyword', {
 if (Prism.languages.markup) {
 	Prism.languages.insertBefore('markup', 'tag', {
 		'script': {
+<<<<<<< HEAD
+			pattern: /(&lt;|<)script[\w\W]*?(>|&gt;)[\w\W]*?(&lt;|<)\/script(>|&gt;)/ig,
+			inside: {
+				'tag': {
+					pattern: /(&lt;|<)script[\w\W]*?(>|&gt;)|(&lt;|<)\/script(>|&gt;)/ig,
+=======
 			pattern: /<script[\w\W]*?>[\w\W]*?<\/script>/ig,
 			inside: {
 				'tag': {
 					pattern: /<script[\w\W]*?>|<\/script>/ig,
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 					inside: Prism.languages.markup.tag.inside
 				},
 				rest: Prism.languages.javascript

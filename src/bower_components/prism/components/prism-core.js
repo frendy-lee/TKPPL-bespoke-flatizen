@@ -13,6 +13,12 @@ var lang = /\blang(?:uage)?-(?!\*)(\w+)\b/i;
 
 var _ = self.Prism = {
 	util: {
+<<<<<<< HEAD
+		type: function (o) { 
+			return Object.prototype.toString.call(o).match(/\[object (\w+)\]/)[1];
+		},
+		
+=======
 		encode: function (tokens) {
 			if (tokens instanceof Token) {
 				return new Token(tokens.type, _.util.encode(tokens.content));
@@ -27,6 +33,7 @@ var _ = self.Prism = {
 			return Object.prototype.toString.call(o).match(/\[object (\w+)\]/)[1];
 		},
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		// Deep clone a language definition (e.g. to extend it)
 		clone: function (o) {
 			var type = _.util.type(o);
@@ -34,12 +41,40 @@ var _ = self.Prism = {
 			switch (type) {
 				case 'Object':
 					var clone = {};
+<<<<<<< HEAD
+					
+=======
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 					for (var key in o) {
 						if (o.hasOwnProperty(key)) {
 							clone[key] = _.util.clone(o[key]);
 						}
 					}
+<<<<<<< HEAD
+					
+					return clone;
+					
+				case 'Array':
+					return o.slice();
+			}
+			
+			return o;
+		}
+	},
+	
+	languages: {
+		extend: function (id, redef) {
+			var lang = _.util.clone(_.languages[id]);
+			
+			for (var key in redef) {
+				lang[key] = redef[key];
+			}
+			
+			return lang;
+		},
+		
+=======
 
 					return clone;
 
@@ -62,11 +97,23 @@ var _ = self.Prism = {
 			return lang;
 		},
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		// Insert a token before another token in a language literal
 		insertBefore: function (inside, before, insert, root) {
 			root = root || _.languages;
 			var grammar = root[inside];
 			var ret = {};
+<<<<<<< HEAD
+				
+			for (var token in grammar) {
+			
+				if (grammar.hasOwnProperty(token)) {
+					
+					if (token == before) {
+					
+						for (var newToken in insert) {
+						
+=======
 
 			for (var token in grammar) {
 
@@ -76,11 +123,22 @@ var _ = self.Prism = {
 
 						for (var newToken in insert) {
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 							if (insert.hasOwnProperty(newToken)) {
 								ret[newToken] = insert[newToken];
 							}
 						}
 					}
+<<<<<<< HEAD
+					
+					ret[token] = grammar[token];
+				}
+			}
+			
+			return root[inside] = ret;
+		},
+		
+=======
 
 					ret[token] = grammar[token];
 				}
@@ -89,11 +147,16 @@ var _ = self.Prism = {
 			return root[inside] = ret;
 		},
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		// Traverse a language definition with Depth First Search
 		DFS: function(o, callback) {
 			for (var i in o) {
 				callback.call(o, i, o[i]);
+<<<<<<< HEAD
+				
+=======
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 				if (_.util.type(o) === 'Object') {
 					_.languages.DFS(o[i], callback);
 				}
@@ -108,6 +171,17 @@ var _ = self.Prism = {
 			_.highlightElement(element, async === true, callback);
 		}
 	},
+<<<<<<< HEAD
+		
+	highlightElement: function(element, async, callback) {
+		// Find language
+		var language, grammar, parent = element;
+		
+		while (parent && !lang.test(parent.className)) {
+			parent = parent.parentNode;
+		}
+		
+=======
 
 	highlightElement: function(element, async, callback) {
 		// Find language
@@ -117,6 +191,7 @@ var _ = self.Prism = {
 			parent = parent.parentNode;
 		}
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		if (parent) {
 			language = (parent.className.match(lang) || [,''])[1];
 			grammar = _.languages[language];
@@ -125,6 +200,27 @@ var _ = self.Prism = {
 		if (!grammar) {
 			return;
 		}
+<<<<<<< HEAD
+		
+		// Set language on the element, if not present
+		element.className = element.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
+		
+		// Set language on the parent, for styling
+		parent = element.parentNode;
+		
+		if (/pre/i.test(parent.nodeName)) {
+			parent.className = parent.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language; 
+		}
+
+		var code = element.textContent;
+		
+		if(!code) {
+			return;
+		}
+		
+		code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\u00a0/g, ' ');
+		
+=======
 
 		// Set language on the element, if not present
 		element.className = element.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
@@ -142,29 +238,47 @@ var _ = self.Prism = {
 			return;
 		}
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		var env = {
 			element: element,
 			language: language,
 			grammar: grammar,
 			code: code
 		};
+<<<<<<< HEAD
+		
+		_.hooks.run('before-highlight', env);
+		
+		if (async && self.Worker) {
+			var worker = new Worker(_.filename);	
+			
+=======
 
 		_.hooks.run('before-highlight', env);
 
 		if (async && self.Worker) {
 			var worker = new Worker(_.filename);
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 			worker.onmessage = function(evt) {
 				env.highlightedCode = Token.stringify(JSON.parse(evt.data), language);
 
 				_.hooks.run('before-insert', env);
 
 				env.element.innerHTML = env.highlightedCode;
+<<<<<<< HEAD
+				
+				callback && callback.call(env.element);
+				_.hooks.run('after-highlight', env);
+			};
+			
+=======
 
 				callback && callback.call(env.element);
 				_.hooks.run('after-highlight', env);
 			};
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 			worker.postMessage(JSON.stringify({
 				language: env.language,
 				code: env.code
@@ -176,6 +290,26 @@ var _ = self.Prism = {
 			_.hooks.run('before-insert', env);
 
 			env.element.innerHTML = env.highlightedCode;
+<<<<<<< HEAD
+			
+			callback && callback.call(element);
+			
+			_.hooks.run('after-highlight', env);
+		}
+	},
+	
+	highlight: function (text, grammar, language) {
+		return Token.stringify(_.tokenize(text, grammar), language);
+	},
+	
+	tokenize: function(text, grammar, language) {
+		var Token = _.Token;
+		
+		var strarr = [text];
+		
+		var rest = grammar.rest;
+		
+=======
 
 			callback && callback.call(element);
 
@@ -195,18 +329,40 @@ var _ = self.Prism = {
 
 		var rest = grammar.rest;
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		if (rest) {
 			for (var token in rest) {
 				grammar[token] = rest[token];
 			}
+<<<<<<< HEAD
+			
+			delete grammar.rest;
+		}
+								
+=======
 
 			delete grammar.rest;
 		}
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 		tokenloop: for (var token in grammar) {
 			if(!grammar.hasOwnProperty(token) || !grammar[token]) {
 				continue;
 			}
+<<<<<<< HEAD
+			
+			var pattern = grammar[token], 
+				inside = pattern.inside,
+				lookbehind = !!pattern.lookbehind,
+				lookbehindLength = 0;
+			
+			pattern = pattern.pattern || pattern;
+			
+			for (var i=0; i<strarr.length; i++) { // Don’t cache length as it changes during the loop
+				
+				var str = strarr[i];
+				
+=======
 
 			var pattern = grammar[token],
 				inside = pattern.inside,
@@ -219,10 +375,22 @@ var _ = self.Prism = {
 
 				var str = strarr[i];
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 				if (strarr.length > text.length) {
 					// Something went terribly wrong, ABORT, ABORT!
 					break tokenloop;
 				}
+<<<<<<< HEAD
+				
+				if (str instanceof Token) {
+					continue;
+				}
+				
+				pattern.lastIndex = 0;
+				
+				var match = pattern.exec(str);
+				
+=======
 
 				if (str instanceof Token) {
 					continue;
@@ -232,6 +400,7 @@ var _ = self.Prism = {
 
 				var match = pattern.exec(str);
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 				if (match) {
 					if(lookbehind) {
 						lookbehindLength = match[1].length;
@@ -242,6 +411,24 @@ var _ = self.Prism = {
 					    len = match.length,
 					    to = from + len,
 						before = str.slice(0, from + 1),
+<<<<<<< HEAD
+						after = str.slice(to + 1); 
+
+					var args = [i, 1];
+					
+					if (before) {
+						args.push(before);
+					}
+					
+					var wrapped = new Token(token, inside? _.tokenize(match, inside) : match);
+					
+					args.push(wrapped);
+					
+					if (after) {
+						args.push(after);
+					}
+					
+=======
 						after = str.slice(to + 1);
 
 					var args = [i, 1];
@@ -258,6 +445,7 @@ var _ = self.Prism = {
 						args.push(after);
 					}
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 					Array.prototype.splice.apply(strarr, args);
 				}
 			}
@@ -265,6 +453,27 @@ var _ = self.Prism = {
 
 		return strarr;
 	},
+<<<<<<< HEAD
+	
+	hooks: {
+		all: {},
+		
+		add: function (name, callback) {
+			var hooks = _.hooks.all;
+			
+			hooks[name] = hooks[name] || [];
+			
+			hooks[name].push(callback);
+		},
+		
+		run: function (name, env) {
+			var callbacks = _.hooks.all[name];
+			
+			if (!callbacks || !callbacks.length) {
+				return;
+			}
+			
+=======
 
 	hooks: {
 		all: {},
@@ -284,6 +493,7 @@ var _ = self.Prism = {
 				return;
 			}
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 			for (var i=0, callback; callback = callbacks[i++];) {
 				callback(env);
 			}
@@ -306,7 +516,11 @@ Token.stringify = function(o, language, parent) {
 			return Token.stringify(element, language, o);
 		}).join('');
 	}
+<<<<<<< HEAD
+	
+=======
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 	var env = {
 		type: o.type,
 		content: Token.stringify(o.content, language, parent),
@@ -316,6 +530,23 @@ Token.stringify = function(o, language, parent) {
 		language: language,
 		parent: parent
 	};
+<<<<<<< HEAD
+	
+	if (env.type == 'comment') {
+		env.attributes['spellcheck'] = 'true';
+	}
+	
+	_.hooks.run('wrap', env);
+	
+	var attributes = '';
+	
+	for (var name in env.attributes) {
+		attributes += name + '="' + (env.attributes[name] || '') + '"';
+	}
+	
+	return '<' + env.tag + ' class="' + env.classes.join(' ') + '" ' + attributes + '>' + env.content + '</' + env.tag + '>';
+	
+=======
 
 	if (env.type == 'comment') {
 		env.attributes['spellcheck'] = 'true';
@@ -331,6 +562,7 @@ Token.stringify = function(o, language, parent) {
 
 	return '<' + env.tag + ' class="' + env.classes.join(' ') + '" ' + attributes + '>' + env.content + '</' + env.tag + '>';
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 };
 
 if (!self.document) {
@@ -343,11 +575,19 @@ if (!self.document) {
 		var message = JSON.parse(evt.data),
 		    lang = message.language,
 		    code = message.code;
+<<<<<<< HEAD
+		
+		self.postMessage(JSON.stringify(_.tokenize(code, _.languages[lang])));
+		self.close();
+	}, false);
+	
+=======
 
 		self.postMessage(JSON.stringify(_.tokenize(code, _.languages[lang])));
 		self.close();
 	}, false);
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 	return self.Prism;
 }
 
@@ -358,7 +598,11 @@ script = script[script.length - 1];
 
 if (script) {
 	_.filename = script.src;
+<<<<<<< HEAD
+	
+=======
 
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
 	if (document.addEventListener && !script.hasAttribute('data-manual')) {
 		document.addEventListener('DOMContentLoaded', _.highlightAll);
 	}
@@ -370,4 +614,8 @@ return self.Prism;
 
 if (typeof module !== 'undefined' && module.exports) {
 	module.exports = Prism;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> de7e7e4c39dd6cb8c9f3a6c6ff2b44e0334e59bc
