@@ -119,7 +119,7 @@ Daily Scrum
 1. Semalam saya telah mencari sumber referensi mengenai keuntungan yang ditawarkan oleh bisnis properti &
    mempelajari cara membuat desain yang lebih dinamis pada bespoke. 
 2. Hari ini saya membuat benefit.jade, slide mengenai keuntungan bisnis property.
-3. Saya ada kendala dalam melakukan pul request.
+3. Saya ada kendala dalam melakukan pull request.
 
 (FRENDY):
 1. Semalam saya telah bereksperimen dengan beberapa thema.
@@ -158,10 +158,10 @@ Daily Scrum
 2. Belajar menerapkan navigasi bar dan menambah isi slide 
 3. Kendala tidak ada.
 
-
-
-
-
-
-
-
+=======
+30/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya telah membuat benefit.jade, slide mengenai keuntungan bisnis property.
+2. Hari ini saya membuat general.jade & melakukan update terhadap benefit.jade.
+3. Saya tidak mendapati kendala hari ini.
