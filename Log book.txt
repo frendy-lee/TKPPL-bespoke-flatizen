@@ -125,3 +125,43 @@ Daily Scrum
 1. Semalam saya telah bereksperimen dengan beberapa thema.
 2. Hari ini saya kurang berpatisipasi dalam proyek dikarenakan terlibat urusan lain.
 3. Hari ini tidak mendapati kendala.
+
+(Steven):
+1.Semalam saya mencari informasi tentang bisnis property
+2.Hari ini saya memcari cara mengoptimasi tampilan bespoke
+3.Saya mengalami kendala karena terlanjur menekan Merge pada Source tree sehingga hrs melakukan clone ulang pada windows
+
+(Jimmy):
+1. Semalam saya kendala karena kesalahan merging history master.
+2. Mencoba mempelajari penggunaan navigasi bar dan mencobanya
+3. Kendala saya adalah kesulitan mempelajari,mencari informasi tentang navigasi bar di bespoke
+
+30/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya mengalami kendala pul request
+2. Hari ini saya membuat benefit.jade, slide mengenai keuntungan bisnis property.
+3. Tidak ada kendala
+
+(FRENDY):
+1. Semalam saya kurang berpartisipasi
+2. Hari ini saya mengubah beberapa konten dari pengertian.jade dan menginstall bootstap ke dalam proyek
+3. Kurang memiliki kendala
+
+(Steven):
+1. Semalam saya mencari cara untuk mengembalikan kondisi repository saya sebelum di merge
+2. Hari ini mengfork kembali repository dari github
+3. Saya mengalami kendala pada Source tree yang tidak bisa di clone
+
+(Jimmy):
+1. Semalam saya kesulitan mempelajari,mencari informasi tentang navigasi bar di bespoke
+2. Belajar menerapkan navigasi bar dan menambah isi slide 
+3. Kendala tidak ada.
+
+
+
+
+
+
+
+
