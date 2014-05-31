@@ -159,8 +159,27 @@ Daily Scrum
 3. Kendala tidak ada.
 
 
+31/5 
+Daily Scrum
+(DEWI):
+1. Semalam saya tidak mengalami kendala
+2. 
+3. 
 
+(FRENDY):
+1. Semalam saya tidak mengalami kendala
+2. 
+3. 
 
+(Steven):
+1. Semalam saya mengalami kendala source tree tidak bisa di clone
+2. Hari ini saya memperbaiki settingan pada source tree dan merancang kerangkan slide untuk flatizen
+3. Saya mengalami kendala pada Source tree yang setiap kali dibuka mengalami eror padahal sehari shutdown windows tidak terjadi eror
+
+(Jimmy):
+1. Semalam saya tidak mengalami kendala
+2. Memperbaiki conflict di repository saya
+3. Mengalami kesulitan dalam mengatasi conflict
 
 
 
