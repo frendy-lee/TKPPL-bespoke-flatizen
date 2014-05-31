@@ -7,19 +7,49 @@ html
 
     // build:css styles/styles.css
     //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
-    link(rel='stylesheet', type='text/css', href='styles/UserProperty.css')
     link(rel='stylesheet', type='text/css', href='styles/themes.css')
+    link(rel='stylesheet', type='text/css', href='styles/UserProperty.css')
+    link(rel='stylesheet', type='text/css', href='styles/navigasi.css')
+    
     // endbuild
 
   body.cube
+    header      
+      div(class='navbar navbar-fixed-top', role='navigation')
+        div.container-fluid
+          div.navbar-header
+            button(type='button' class='navbar-toggle' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+              span.sr-only
+                TOggle Navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            <a class='navbar-brand' href='#'>Flatizen</a>
+
+          div(class='collapse navbar-collapse' id='bs-example-navbar-collapse-1')
+            ul.nav.navbar-nav
+              li.active
+                <a href='index.html'>Home</a>
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Daftar Slide <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='pengertian.html'>Pengertian</a>
+                  li <a href='UserProperty.html'>User Property</a>
+                  li <a href='benefit.html'>Benefit</a>
+                  li <a href='general.html'>General</a>
+                  li <a href='PeranProfesional.html'>Peran Profesional</a>
+                  li <a href='Flatizen.html'>About</a>
+
 
     article
       section(data-bespoke-state='emphatic')
-        h1.flatizen-font Flatizen
-        h4.flatizen-font Internationalize Your Properties Solution   
+        h1.flatizen-font.b-shadow Flatizen 
+        h4.flatizen-font.b-shadow Internationalize Your Properties Solution
 
-      section
+      section 
         h3 User
         ul
           li 
@@ -60,9 +90,9 @@ html
         ul
           li
             h6 Mortgage Loan, juga disebut sebagai mortgage, digunakan oleh pembeli real properti untuk mengumpulkan uang untuk membeli properti yang akan dibeli atau oleh pemilik properti yang sudah ada untuk mengumpulkan dana untuk tujuan apapun. 
-            hr
+            
             h6 Pinjaman ini "diamankan" di properti peminjam. Ini berarti bahwa mekanisme hukum diletakkan di tempat yang memungkinkan pemberi pinjaman untuk mengambil kepemilikan dan menjual properti dijamin ("penyitaan" atau "kepemilikan") untuk melunasi pinjaman dalam hal peminjam default pada pinjaman atau gagal mematuhi ketentuan-ketentuannya. 
-            hr
+            
             h6 Kata mortgage berasal dari "hukum Perancis" istilah yang digunakan oleh pengacara Inggris di abad pertengahan yang berarti "janji kematian", dan mengacu pada janji berakhir (mati) ketika salah kewajiban terpenuhi atau properti diambil melalui penyitaan.
             
             h6 Mortgage Lender memiliki beberapa pembagian yaitu :        
@@ -74,6 +104,7 @@ html
             h6 3. home equity (HELOC), dan
           li.color
             h6 4. mortgage planning.
+      
       section
         h3 Home Improvement Service
         ul
@@ -82,9 +113,9 @@ html
           li
             h7.next Nyaman, Pemeliharaan dan Perbaikan, Menambah ruang baru, 
             h7.next Menghemat Energi, dan Keselamatan dan Persiapan.
-            hr
+            
           li
-            h6 Didalam Home Improvement Service mempunyai beberapa pembagian yaitu : 
+            h6 Didalam Home Improvement Service mempunyai beberapa jenis yaitu : 
           li.color
             h6 a. Home Improvement Service Architecture, 
           li.color
@@ -102,9 +133,7 @@ html
           li.color
             h6 h. painting, 
           li.color
-            h6 i. plumbing, dan
-          li.color
-            h6 j. property management.
+            h6 i. plumbing, dan property management.
 
       section
         h3 Property Management & Other Real Estate
@@ -139,7 +168,7 @@ html
             h6 11. title
       section
         h2 Sekian dan Terima kasih
-
+      
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
     script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
@@ -152,4 +181,6 @@ html
     script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
     script(src='bower_components/prism/prism.js')
     script(src='scripts/main.js')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
     // endbuild
