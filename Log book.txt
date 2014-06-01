@@ -162,14 +162,14 @@ Daily Scrum
 31/5 
 Daily Scrum
 (DEWI):
-1. Semalam saya tidak mengalami kendala
+1. 
 2. 
 3. 
 
 (FRENDY):
-1. Semalam saya tidak mengalami kendala
-2. 
-3. 
+1. Saya tidak mendapat kendala
+2. Hari ini saya mengupdate slide pengertian dan bisnis
+3. Saya tidak memiliki kendala
 
 (Steven):
 1. Semalam saya mengalami kendala source tree tidak bisa di clone
