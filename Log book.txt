@@ -139,9 +139,9 @@ Daily Scrum
 30/5 
 Daily Scrum
 (DEWI):
-1. Semalam saya mengalami kendala pul request
-2. Hari ini saya membuat benefit.jade, slide mengenai keuntungan bisnis property.
-3. Tidak ada kendala
+1. Semalam saya telah membuat benefit.jade, slide mengenai keuntungan bisnis property.
+2. Hari ini saya membuat general.jade & melakukan update terhadap benefit.jade.
+3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
 1. Semalam saya kurang berpartisipasi
@@ -158,10 +158,9 @@ Daily Scrum
 2. Belajar menerapkan navigasi bar dan menambah isi slide 
 3. Kendala tidak ada.
 
-=======
-30/5 
+31/5 
 Daily Scrum
 (DEWI):
-1. Semalam saya telah membuat benefit.jade, slide mengenai keuntungan bisnis property.
-2. Hari ini saya membuat general.jade & melakukan update terhadap benefit.jade.
+1. Semalam saya telah membuat general.jade & melakukan update terhadap benefit.jade.
+2. Hari ini saya kurang berpartisipasi.
 3. Saya tidak mendapati kendala hari ini.
