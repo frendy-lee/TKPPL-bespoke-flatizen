@@ -165,6 +165,7 @@ Daily Scrum
 2. Hari ini saya kurang berpartisipasi.
 3. Saya tidak mendapati kendala hari ini.
 
+<<<<<<< HEAD
 01/6
 Daily Scrum
 (DEWI):
@@ -208,3 +209,20 @@ Daily Scrum
 1. Semalam saya melakukan beberapa pengeditan pada slide.
 2. Hari ini saya melakukan pengeditan pada navigasi bar.
 3. Saya tidak mendapati kendala hari ini.
+=======
+(FRENDY):
+1. Saya tidak mendapat kendala
+2. Hari ini saya mengupdate slide pengertian dan bisnis
+3. Saya tidak memiliki kendala
+
+(Steven):
+1. Semalam saya mengalami kendala source tree tidak bisa di clone
+2. Hari ini saya memperbaiki settingan pada source tree dan merancang kerangkan slide untuk flatizen
+3. Saya mengalami kendala pada Source tree yang setiap kali dibuka mengalami eror padahal sehari shutdown windows tidak terjadi eror
+
+(Jimmy):
+1. Semalam saya tidak mengalami kendala
+2. Memperbaiki conflict di repository saya
+3. Mengalami kesulitan dalam mengatasi conflict
+
+>>>>>>> 3d0db9355b5ef1e6b19933e3d304e8233cc56755
