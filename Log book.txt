@@ -165,6 +165,51 @@ Daily Scrum
 2. Hari ini saya kurang berpartisipasi.
 3. Saya tidak mendapati kendala hari ini.
 
+<<<<<<< HEAD
+01/6
+Daily Scrum
+(DEWI):
+1. Semalam saya kurang berpartisipasi.
+2. Hari ini saya mencoba mempelajari penggunaan navigasi.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya 
+2. Hari ini saya melakukan beberapa perubahan pada slide flatizen.
+3. Saya tidak mendapati kendala hari ini.
+
+(Steven):
+1. Semalam saya 
+2. Hari ini saya mencari referensi yang diperlukan dalam proyek ini.
+3. Saya tidak mendapati kendala hari ini. 
+
+(Jimmy):
+1. Semalam saya
+2. Hari ini saya melakukan beberapa pengeditan pada slide.
+3. Saya tidak mendapati kendala hari ini.
+
+02/6
+Daily Scrum
+(DEWI):
+1. Semalam saya mencoba mempelajari penggunaan navigasi.
+2. Hari ini saya merapikan slide-slide yang ada.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya melakukan beberapa perubahan pada slide flatizen.
+2. Hari ini saya menyelesaikan slide tentang flatizen.
+3. Saya tidak mendapati kendala hari ini.
+
+(Steven):
+1. Semalam saya mencari referensi yang diperlukan dalam proyek ini
+2. Hari ini saya 
+3. 
+
+(Jimmy):
+1. Semalam saya melakukan beberapa pengeditan pada slide.
+2. Hari ini saya melakukan pengeditan pada navigasi bar.
+3. Saya tidak mendapati kendala hari ini.
+=======
 (FRENDY):
 1. Saya tidak mendapat kendala
 2. Hari ini saya mengupdate slide pengertian dan bisnis
@@ -180,3 +225,4 @@ Daily Scrum
 2. Memperbaiki conflict di repository saya
 3. Mengalami kesulitan dalam mengatasi conflict
 
+>>>>>>> 3d0db9355b5ef1e6b19933e3d304e8233cc56755
