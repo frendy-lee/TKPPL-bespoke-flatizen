@@ -174,8 +174,8 @@ Daily Scrum
 
 (FRENDY):
 1. Semalam saya 
-2. Hari ini saya 
-3. 
+2. Hari ini saya melakukan beberapa perubahan pada slide flatizen.
+3. Saya tidak mendapati kendala hari ini.
 
 (Steven):
 1. Semalam saya 
@@ -184,5 +184,27 @@ Daily Scrum
 
 (Jimmy):
 1. Semalam saya
-2. Hari ini saya
+2. Hari ini saya melakukan beberapa pengeditan pada slide.
+3. Saya tidak mendapati kendala hari ini.
+
+02/6
+Daily Scrum
+(DEWI):
+1. Semalam saya mencoba mempelajari penggunaan navigasi.
+2. Hari ini saya merapikan slide-slide yang ada.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya melakukan beberapa perubahan pada slide flatizen.
+2. Hari ini saya menyelesaikan slide tentang flatizen.
+3. Saya tidak mendapati kendala hari ini.
+
+(Steven):
+1. Semalam saya mencari referensi yang diperlukan dalam proyek ini
+2. Hari ini saya 
 3. 
+
+(Jimmy):
+1. Semalam saya melakukan beberapa pengeditan pada slide.
+2. Hari ini saya melakukan pengeditan pada navigasi bar.
+3. Saya tidak mendapati kendala hari ini.
