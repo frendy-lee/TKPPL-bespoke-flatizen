@@ -164,3 +164,25 @@ Daily Scrum
 1. Semalam saya telah membuat general.jade & melakukan update terhadap benefit.jade.
 2. Hari ini saya kurang berpartisipasi.
 3. Saya tidak mendapati kendala hari ini.
+
+01/6
+Daily Scrum
+(DEWI):
+1. Semalam saya kurang berpartisipasi.
+2. Hari ini saya mencoba mempelajari penggunaan navigasi.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya 
+2. Hari ini saya 
+3. 
+
+(Steven):
+1. Semalam saya 
+2. Hari ini saya mencari referensi yang diperlukan dalam proyek ini.
+3. Saya tidak mendapati kendala hari ini. 
+
+(Jimmy):
+1. Semalam saya
+2. Hari ini saya
+3. 
