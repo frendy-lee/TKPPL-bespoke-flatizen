@@ -7,11 +7,43 @@ html
 
     // build:css styles/styles.css
     //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+    link(rel='stylesheet', type='text/css', href='styles/themes.css')
     link(rel='stylesheet', type='text/css', href='styles/main.css')
+    link(rel='stylesheet', type='text/css', href='styles/navigasi.css')
     // endbuild
 
   body
+    header      
+      div(class='navbar navbar-fixed-top', role='navigation')
+        div.container-fluid
+          div.navbar-header
+            button(type='button' class='navbar-toggle' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+              span.sr-only
+                TOggle Navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            <a class='navbar-brand flatizen-font' href='index.html'>Flatizen</a>
+
+          div(class='collapse navbar-collapse' id='bs-example-navbar-collapse-1')
+            ul.nav.navbar-nav
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Properti <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='pengertian.html'>Mengenal Properti</a>
+                  li <a href='userproperty.html'>Pemain Properti</a>
+                  li <a href='peranprofesional.html'>Professional Properti</a>
+                  li <a href='benefit.html'>Benefit Properti</a>
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Flatizen <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='flatizen.html'>Perkenalan Flatizen</a>
+                  li <a href='flatizentechnical.html'>Flatizen Technical Backbone</a>
+              li.active
+                <a href='demo.html'>Flatizen Review</a>
 
     article
 
@@ -34,62 +66,7 @@ html
       section
         h1 Let's Start!
         h4 <a href = "pengertian.html">Pengertian Properti</a>
-
-      //section
-        h1 Property
-
-      //section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      //section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      //section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-        ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-      //section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        hr
-        pre
-          code.language-javascript.
-            bespoke.from('article', {
-              keys: true,
-              touch: true,
-              hash: true,
-              state: true,
-              bullets: 'li, .bullet'
-            });
-
-      //section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      //section(data-bespoke-state='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-state">bespoke-state</a>
-
-      //section
-        h2.bullet Just the beginning...
-        hr
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        hr
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
+      
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
     script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
@@ -102,4 +79,6 @@ html
     script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
     script(src='bower_components/prism/prism.js')
     script(src='scripts/main.js')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
     // endbuild

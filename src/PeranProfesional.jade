@@ -7,12 +7,44 @@ html
 
     // build:css styles/styles.css
     //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
-    link(rel='stylesheet', type='text/css', href='styles/main.css')
+    link(rel='stylesheet', type='text/css', href='styles/themes.css')
+    link(rel='stylesheet', type='text/css', href='styles/main.css')    
     link(rel='stylesheet', type='text/css', href='styles/themescreate.css')
+    link(rel='stylesheet', type='text/css', href='styles/navigasi.css')
     // endbuild
 
   body
+    header      
+      div(class='navbar navbar-fixed-top', role='navigation')
+        div.container-fluid
+          div.navbar-header
+            button(type='button' class='navbar-toggle' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+              span.sr-only
+                TOggle Navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            <a class='navbar-brand flatizen-font' href='index.html'>Flatizen</a>
+
+          div(class='collapse navbar-collapse' id='bs-example-navbar-collapse-1')
+            ul.nav.navbar-nav
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Properti <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='pengertian.html'>Mengenal Properti</a>
+                  li <a href='userproperty.html'>Pemain Properti</a>
+                  li <a href='peranprofesional.html'>Professional Properti</a>
+                  li <a href='benefit.html'>Benefit Properti</a>
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Flatizen <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='flatizen.html'>Perkenalan Flatizen</a>
+                  li <a href='flatizentechnical.html'>Flatizen Technical Backbone</a>
+              li.active
+                <a href='demo.html'>Flatizen Review</a>
 
     article
 
@@ -167,4 +199,6 @@ html
     script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
     script(src='bower_components/prism/prism.js')
     script(src='scripts/main.js')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
     // endbuild
