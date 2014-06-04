@@ -222,8 +222,8 @@ Daily Scrum
 
 (Steven):
 1. Semalam saya mencari referensi yang diperlukan dalam proyek ini
-2. Hari ini saya 
-3. 
+2. Hari ini saya melakukan update pada flatizen.jade
+3. Saya tidak mendapati kendala hari ini.
 
 (Jimmy):
 1. Semalam saya melakukan beberapa pengeditan pada slide.
@@ -235,7 +235,7 @@ Daily Scrum
 Daily Scrum
 (DEWI):
 1. Semalam saya merapikan beberapa slide-slide yang ada.
-2. Hari ini saya 
+2. Hari ini saya melakukan pengeditan pada bagian tampilan.
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
@@ -244,11 +244,35 @@ Daily Scrum
 3. 
 
 (Steven):
-1. Semalam saya 
-2. Hari ini saya 
-3. 
+1. Semalam saya melakukan update pada flatizen.jade.
+2. Hari ini saya melakukan beberapa perubahan.
+3. Saya tidak mendapati kendala hari ini.
 
 (Jimmy):
 1. Semalam saya melakukan pengeditan pada navigasi bar.
 2. Hari ini saya melakukan perrubahan pada slide dan sedikit penambahan isi.
 3. Saya tidak mendapati kendala hari ini.
+
+
+04/6
+Daily Scrum
+(DEWI):
+1. Semalam saya melakukan pengeditan pada bagian tampilan.
+2. Hari ini saya melakukan pengeditan pada pengertian. jade & 
+   mempelajari kembali penggunaan jade lang.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya 
+2. Hari ini saya 
+3. 
+
+(Steven):
+1. Semalam saya melakukan beberapa perubahan.
+2. Hari ini saya 
+3. 
+
+(Jimmy):
+1. Semalam saya melakukan perubahan pada slide dan sedikit penambahan isi.
+2. Hari ini saya 
+3. 
