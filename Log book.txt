@@ -35,7 +35,7 @@ Sprint 2:
 Scrummaster: Steven (12.111.0324)
 
 Sprint 3: 
-2/6 - 4/6
+1/6 - 4/6
 Scrummaster: Dewi Ratna Sari (12.111.0430)
 
 Sprint 4:
@@ -90,6 +90,7 @@ Daily Scrum
 2. Hari ini saya mempelajari penulisan Jade menggunakan sublime untuk proyek ini.
 3. Saya ada kendala yaitu pada source tree yang bermasalah dan tidak dapat merecognize clone dari proyek.
 
+
 28/5 
 Daily Scrum
 (DEWI):
@@ -112,6 +113,7 @@ Daily Scrum
 1. Semalam saya mempelajari penulisan Jade
 2. Hari ini saya membuat slide untuk pengenalan flatizen.
 3. Saya memiliki kendala karena kesalahan merging history master.
+
 
 29/5 
 Daily Scrum
@@ -136,6 +138,7 @@ Daily Scrum
 2. Mencoba mempelajari penggunaan navigasi bar dan mencobanya
 3. Kendala saya adalah kesulitan mempelajari,mencari informasi tentang navigasi bar di bespoke
 
+
 30/5 
 Daily Scrum
 (DEWI):
@@ -158,6 +161,7 @@ Daily Scrum
 2. Belajar menerapkan navigasi bar dan menambah isi slide 
 3. Kendala tidak ada.
 
+
 31/5 
 Daily Scrum
 (DEWI):
@@ -165,7 +169,22 @@ Daily Scrum
 2. Hari ini saya kurang berpartisipasi.
 3. Saya tidak mendapati kendala hari ini.
 
-<<<<<<< HEAD
+(FRENDY):
+1. Saya tidak mendapat kendala
+2. Hari ini saya mengupdate slide pengertian dan bisnis
+3. Saya tidak memiliki kendala
+
+(Steven):
+1. Semalam saya mengalami kendala source tree tidak bisa di clone
+2. Hari ini saya memperbaiki settingan pada source tree dan merancang kerangkan slide untuk flatizen
+3. Saya mengalami kendala pada Source tree yang setiap kali dibuka mengalami eror padahal sehari shutdown windows tidak terjadi eror
+
+(Jimmy):
+1. Semalam saya tidak mengalami kendala
+2. Memperbaiki conflict di repository saya
+3. Mengalami kesulitan dalam mengatasi conflict
+
+
 01/6
 Daily Scrum
 (DEWI):
@@ -188,11 +207,12 @@ Daily Scrum
 2. Hari ini saya melakukan beberapa pengeditan pada slide.
 3. Saya tidak mendapati kendala hari ini.
 
+
 02/6
 Daily Scrum
 (DEWI):
 1. Semalam saya mencoba mempelajari penggunaan navigasi.
-2. Hari ini saya merapikan slide-slide yang ada.
+2. Hari ini saya merapikan beberapa slide-slide yang ada.
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
@@ -209,20 +229,26 @@ Daily Scrum
 1. Semalam saya melakukan beberapa pengeditan pada slide.
 2. Hari ini saya melakukan pengeditan pada navigasi bar.
 3. Saya tidak mendapati kendala hari ini.
-=======
+
+
+03/6
+Daily Scrum
+(DEWI):
+1. Semalam saya merapikan beberapa slide-slide yang ada.
+2. Hari ini saya 
+3. Saya tidak mendapati kendala hari ini.
+
 (FRENDY):
-1. Saya tidak mendapat kendala
-2. Hari ini saya mengupdate slide pengertian dan bisnis
-3. Saya tidak memiliki kendala
+1. Semalam saya menyelesaikan slide tentang flatizen.
+2. Hari ini saya 
+3. 
 
 (Steven):
-1. Semalam saya mengalami kendala source tree tidak bisa di clone
-2. Hari ini saya memperbaiki settingan pada source tree dan merancang kerangkan slide untuk flatizen
-3. Saya mengalami kendala pada Source tree yang setiap kali dibuka mengalami eror padahal sehari shutdown windows tidak terjadi eror
+1. Semalam saya 
+2. Hari ini saya 
+3. 
 
 (Jimmy):
-1. Semalam saya tidak mengalami kendala
-2. Memperbaiki conflict di repository saya
-3. Mengalami kesulitan dalam mengatasi conflict
-
->>>>>>> 3d0db9355b5ef1e6b19933e3d304e8233cc56755
+1. Semalam saya melakukan pengeditan pada navigasi bar.
+2. Hari ini saya melakukan perrubahan pada slide dan sedikit penambahan isi.
+3. Saya tidak mendapati kendala hari ini.
