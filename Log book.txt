@@ -258,7 +258,8 @@ Daily Scrum
 Daily Scrum
 (DEWI):
 1. Semalam saya melakukan pengeditan pada bagian tampilan.
-2. Hari ini saya melakukan pengeditan pada pengertian. jade.
+2. Hari ini saya melakukan pengeditan pada pengertian. jade & 
+   mempelajari kembali penggunaan jade lang.
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
