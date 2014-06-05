@@ -1,0 +1,106 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Flatizen
+
+    // build:css styles/styles.css
+    //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+    link(rel='stylesheet', type='text/css', href='styles/themes.css')
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+    link(rel='stylesheet', type='text/css', href='styles/navigasi.css')
+    // endbuild
+
+  body
+    header      
+      div(class='navbar navbar-fixed-top', role='navigation')
+        div.container-fluid
+          div.navbar-header
+            button(type='button' class='navbar-toggle' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+              span.sr-only
+                TOggle Navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            <a class='navbar-brand flatizen-font' href='index.html'>Flatizen</a>
+
+          div(class='collapse navbar-collapse' id='bs-example-navbar-collapse-1')
+            ul.nav.navbar-nav
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Properti <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='pengertian.html'>Mengenal Properti</a>
+                  li <a href='userproperty.html'>Pemain Properti</a>
+                  li <a href='peranprofesional.html'>Professional Properti</a>
+                  li <a href='benefit.html'>Benefit Properti</a>
+              li.dropdown
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Flatizen <b class="caret"></b></a>
+                ul.dropdown-menu
+                  li <a href='flatizen.html'>Perkenalan Flatizen</a>
+                  li <a href='flatizentechnical.html'>Flatizen Technical Backbone</a>
+              li.active
+                <a href='demo.html'>Flatizen Review</a>
+
+    article
+
+      section(data-bespoke-state='emphatic')
+        h1.flatizen-font Flatizen
+        h4.flatizen-font Technical Stuff Review
+        p #uhh?!   
+
+      section
+        ul
+          li 
+            h2 <font class='flatizen-font'>Flatizen</font> is a simple Website!
+          li 
+            h4 Let's go inside
+
+      section
+        h2 <font class='flatizen-font'>Flatizen</font> Interfaces        
+        ul
+          li
+            h4 The powerfull ingredients of:
+          li
+            <img src='styles/img/html5.png' width='80' height='80'>
+            <img src='styles/img/css3.png' width='80' height='80'>
+          li
+            i.glyphicon.glyphicon-plus
+          li
+            <img src='styles/img/bootstrap.png' width='150' height='80'>
+          li
+            i.glyphicon.glyphicon-plus
+          li
+            <img src='styles/img/jquery.png' width='150' height='80'>
+
+      section
+        h2 <font class='flatizen-font'>Flatizen</font> Backbone
+        ul
+          li 
+            h4 The great performance of:
+          li
+            <img src='styles/img/php.png' width='100' height='100'>
+            <img src='styles/img/mysql.png' width='100' height='100'>
+          li
+            h4 With powerfull framework performance:
+          li
+            <img src='styles/img/codeigniter.png' width='200' height='80'>
+
+    // build:js scripts/scripts.js
+    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+    script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+    script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+    script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='scripts/main.js')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+    // endbuild
