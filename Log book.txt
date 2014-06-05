@@ -240,8 +240,8 @@ Daily Scrum
 
 (FRENDY):
 1. Semalam saya menyelesaikan slide tentang flatizen.
-2. Hari ini saya 
-3. 
+2. Hari ini saya menambahkan navigasi pada keseluruhan slide dan pembersihan beberapa code dan file
+3. Saya tidak mendapati kendala
 
 (Steven):
 1. Semalam saya melakukan update pada flatizen.jade.
@@ -263,9 +263,9 @@ Daily Scrum
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
-1. Semalam saya 
-2. Hari ini saya 
-3. 
+1. Semalam saya telah menambahkan navigasi dan melakukan minor fix
+2. Hari ini saya mengumpulkan materi untuk slide struktur teknis
+3. Saya tidak mendapati kendala
 
 (Steven):
 1. Semalam saya melakukan beberapa perubahan.
@@ -274,5 +274,10 @@ Daily Scrum
 
 (Jimmy):
 1. Semalam saya melakukan perubahan pada slide dan sedikit penambahan isi.
+<<<<<<< HEAD
 2. Hari ini saya melakukan perubahan css pada tampilan slidenya.
 3. Saya tidak mendapati kendala hari ini.
+=======
+2. Hari ini saya 
+3. 
+>>>>>>> ff2d6430625961f0c6dc7164c67162a60dc1d608
