@@ -274,5 +274,10 @@ Daily Scrum
 
 (Jimmy):
 1. Semalam saya melakukan perubahan pada slide dan sedikit penambahan isi.
+<<<<<<< HEAD
+2. Hari ini saya melakukan perubahan css pada tampilan slidenya.
+3. Saya tidak mendapati kendala hari ini.
+=======
 2. Hari ini saya 
 3. 
+>>>>>>> ff2d6430625961f0c6dc7164c67162a60dc1d608
