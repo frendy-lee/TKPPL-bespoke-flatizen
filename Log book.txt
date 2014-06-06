@@ -296,7 +296,8 @@ Daily Scrum
 3. Saya Tidak mendapati kendala hari ini.
 
 (DEWI):
-1. Semalam saya
+1. Semalam saya melakukan pengeditan pada pengertian. jade & 
+   mempelajari kembali penggunaan jade lang.
 2. Hari ini saya
 3. Saya tidak mendapati kendala hari ini.
 
@@ -304,13 +305,13 @@ Daily Scrum
 Daily Scrum
 (JIMMY):
 1. Semalam saya mempercantik tampilan slidenya.
-2. Hari ini 
-3. Kendala
+2. Hari ini mengedit dan mempercantik navbar dan mengganti title.
+3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
 1. Semalam saya membuat slide teknis flatizen dan melakukan fix navigasi.
-2. Hari ini 
-3. Kendala
+2. Hari ini saya tidak mengerjakan apa apa.
+3. Kendala masalah kesehatan yaitu saya sakit.
 
 (STEVEN):
 1. Semalam saya
