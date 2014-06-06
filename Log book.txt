@@ -274,10 +274,50 @@ Daily Scrum
 
 (Jimmy):
 1. Semalam saya melakukan perubahan pada slide dan sedikit penambahan isi.
-<<<<<<< HEAD
 2. Hari ini saya melakukan perubahan css pada tampilan slidenya.
 3. Saya tidak mendapati kendala hari ini.
-=======
-2. Hari ini saya 
-3. 
->>>>>>> ff2d6430625961f0c6dc7164c67162a60dc1d608
+
+
+05/6
+Daily Scrum
+(JIMMY):
+1. Semalam saya melakukan perubahan css pada tampilan slidenya.
+2. Mempercantik tampilan slidenya.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya mengumpulkan materi untuk slide struktur teknis.
+2. Hari ini membuat slide teknis flatizen dan melakukan fix navigasi.
+3. Hari ini tidak mendapati kendala.
+
+(STEVEN):
+1. Semalam saya
+2. Hari ini saya mengedit file flatizen.jade.
+3. Saya Tidak mendapati kendala hari ini.
+
+(DEWI):
+1. Semalam saya
+2. Hari ini saya
+3. Saya tidak mendapati kendala hari ini.
+
+06/6
+Daily Scrum
+(JIMMY):
+1. Semalam saya mempercantik tampilan slidenya.
+2. Hari ini 
+3. Kendala
+
+(FRENDY):
+1. Semalam saya membuat slide teknis flatizen dan melakukan fix navigasi.
+2. Hari ini 
+3. Kendala
+
+(STEVEN):
+1. Semalam saya
+2. Hari ini
+3. Kendala
+
+(DEWI):
+1. Semalam saya
+2. Hari ini saya
+3. Kendala
