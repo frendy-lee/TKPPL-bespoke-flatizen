@@ -2,7 +2,7 @@
 
 // variables!
 
-slide_width = 640px
+slide_width = 680px
 slide_height = 480px
 slide_background = #09F
 
@@ -73,7 +73,7 @@ article
   flex-direction: column
   justify-content: center
   align-items: center
-  text-align: center
+  text-align: left
   width: slide_width
   height: slide_height
   position: absolute
@@ -84,6 +84,7 @@ article
   background: slide_background
   padding: 40px
   border-radius 10px
+  z-index: -1px
   @media print
     zoom: 1 !important // disable bespoke-scale
     height: 743px // seems to correspond with an A4, landscape page height
@@ -150,11 +151,13 @@ article
     display: none
 
 .bespoke-progress-bar
-  transition: width .6s ease
+  transition: width .4s ease
   position: absolute
   height: 100%
   background: Red
   border-radius: 0 4px 4px 0
+  margin-top:50px
+  z-index: 5px
 
 // bespoke-state styles
 
@@ -213,6 +216,6 @@ p
   line-height: 22px
 
 a
-  color: #0089f3
+  color: White
   text-decoration: none
 
