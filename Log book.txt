@@ -147,18 +147,18 @@ Daily Scrum
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
-1. Semalam saya kurang berpartisipasi
-2. Hari ini saya mengubah beberapa konten dari pengertian.jade dan menginstall bootstap ke dalam proyek
-3. Kurang memiliki kendala
+1. Semalam saya kurang berpartisipasi.
+2. Hari ini saya mengubah beberapa konten dari pengertian.jade dan menginstall bootstap ke dalam proyek.
+3. Kurang memiliki kendala.
 
 (Steven):
-1. Semalam saya mencari cara untuk mengembalikan kondisi repository saya sebelum di merge
-2. Hari ini mengfork kembali repository dari github
-3. Saya mengalami kendala pada Source tree yang tidak bisa di clone
+1. Semalam saya mencari cara untuk mengembalikan kondisi repository saya sebelum di merge.
+2. Hari ini mengfork kembali repository dari github.
+3. Saya mengalami kendala pada Source tree yang tidak bisa di clone.
 
 (Jimmy):
-1. Semalam saya kesulitan mempelajari,mencari informasi tentang navigasi bar di bespoke
-2. Belajar menerapkan navigasi bar dan menambah isi slide 
+1. Semalam saya kesulitan mempelajari,mencari informasi tentang navigasi bar di bespoke.
+2. Belajar menerapkan navigasi bar dan menambah isi slide.
 3. Kendala tidak ada.
 
 
@@ -170,19 +170,19 @@ Daily Scrum
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
-1. Saya tidak mendapat kendala
-2. Hari ini saya mengupdate slide pengertian dan bisnis
-3. Saya tidak memiliki kendala
+1. Semalam Saya mengubah beberapa konten dari pengertian.jade dan menginstall bootstap ke dalam proyek.
+2. Hari ini saya mengupdate slide pengertian dan bisnis.
+3. Saya tidak memiliki kendala.
 
 (Steven):
-1. Semalam saya mengalami kendala source tree tidak bisa di clone
+1. Semalam saya mengfork kembali repository dari github.
 2. Hari ini saya memperbaiki settingan pada source tree dan merancang kerangkan slide untuk flatizen
 3. Saya mengalami kendala pada Source tree yang setiap kali dibuka mengalami eror padahal sehari shutdown windows tidak terjadi eror
 
 (Jimmy):
-1. Semalam saya tidak mengalami kendala
-2. Memperbaiki conflict di repository saya
-3. Mengalami kesulitan dalam mengatasi conflict
+1. Semalam saya belajar menerapkan navigasi bar dan menambah isi slide.
+2. Memperbaiki conflict di repository saya.
+3. Mengalami kesulitan dalam mengatasi conflict.
 
 
 01/6
@@ -193,17 +193,18 @@ Daily Scrum
 3. Saya tidak mendapati kendala hari ini.
 
 (FRENDY):
-1. Semalam saya 
+1. Semalam saya mengupdate slide pengertian dan bisnis
 2. Hari ini saya melakukan beberapa perubahan pada slide flatizen.
 3. Saya tidak mendapati kendala hari ini.
 
 (Steven):
-1. Semalam saya 
+1. Semalam saya memperbaiki settingan pada source tree dan merancang kerangkan slide untuk flatizen
+3. Saya mengalami kendala pada Source tree yang setiap kali dibuka mengalami eror padahal sehari shutdown windows tidak terjadi eror.
 2. Hari ini saya mencari referensi yang diperlukan dalam proyek ini.
 3. Saya tidak mendapati kendala hari ini. 
 
 (Jimmy):
-1. Semalam saya
+1. Semalam saya memperbaiki conflict di repository saya.
 2. Hari ini saya melakukan beberapa pengeditan pada slide.
 3. Saya tidak mendapati kendala hari ini.
 
@@ -269,8 +270,8 @@ Daily Scrum
 
 (Steven):
 1. Semalam saya melakukan beberapa perubahan.
-2. Hari ini saya 
-3. 
+2. Hari ini saya tidak berkonstribusi.
+3. Kendala tidak ada.
 
 (Jimmy):
 1. Semalam saya melakukan perubahan pada slide dan sedikit penambahan isi.
@@ -291,14 +292,14 @@ Daily Scrum
 3. Hari ini tidak mendapati kendala.
 
 (STEVEN):
-1. Semalam saya
+1. Semalam saya tidak berkonstribusi.
 2. Hari ini saya mengedit file flatizen.jade.
 3. Saya Tidak mendapati kendala hari ini.
 
 (DEWI):
 1. Semalam saya melakukan pengeditan pada pengertian. jade & 
    mempelajari kembali penggunaan jade lang.
-2. Hari ini saya
+2. Hari ini saya membantu memperbaiki isi UserProperty.jade.
 3. Saya tidak mendapati kendala hari ini.
 
 06/6
@@ -314,11 +315,33 @@ Daily Scrum
 3. Kendala masalah kesehatan yaitu saya sakit.
 
 (STEVEN):
-1. Semalam saya
-2. Hari ini
-3. Kendala
+1. Semalam saya mengedit file Flatizen.jade.
+2. Hari ini mengedit Flatizen.jade.
+3. Saya tidak mendapati kendala hari ini.
 
 (DEWI):
-1. Semalam saya
-2. Hari ini saya
-3. Kendala
+1. Semalam saya memperbaiki isi UserProperty.jade.
+2. Hari ini saya membantu memperbaiki isi PeranProperty.jade.
+3. Saya tidak mendapati kendala hari ini.
+
+07/6
+Daily Scrum
+(JIMMY):
+1. Semalam saya mengedit dan mempercantik navbar dan mengganti title.
+2. Hari ini melakukan fix css dan memperbaharuinya.
+3. Saya tidak mendapati kendala hari ini.
+
+(FRENDY):
+1. Semalam saya tidak mengerjakan apa apa.
+2. Hari ini saya menambah slide review dan fix error.
+3. Saya tidak mendapati kendala hari ini.
+
+(STEVEN):
+1. Semalam saya mengedit file Flatizen.jade.
+2. Hari ini saya tidak berkonstribusi.
+3. Saya tidak mendapati kendala hari ini.
+
+(DEWI):
+1. Semalam saya membantu memperbaiki isi PeranProperty.jade.
+2. Hari ini saya tidak berkonstribusi.
+3. Saya tidak mendapati kendala hari ini.
